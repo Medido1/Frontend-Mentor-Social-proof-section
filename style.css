@@ -46,6 +46,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /* styling */
 
 body {
+  height: 100vh;
   font-family: var(--font_family);
   font-size: var(--font_size);
   text-align: center;
@@ -129,19 +130,19 @@ body {
 
 @media (min-width : 750px){
   body {
-    padding: 10vw;
+    padding: 12vh 12vw;
     text-align: left;
     height: 100vh;
     background: url(./images/bg-pattern-top-desktop.svg),url(./images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat,no-repeat;
     background-position: top left, bottom right;
-    background-size: 40% 55%, 60%;
+    background-size: 40% 45%, 60%;
   }
   .header {
     display: flex;
   }
   .main_heading{
-    font-size: 2.6rem;
+    font-size: 2.8rem;
   }
   .header_left {
     width: 40%;
